@@ -10,17 +10,27 @@ html, body {
 body {
   background-color: #EBEBEB;
 }
+h1 {
+  color: #333333;
+}
+
+.punktforme {
+  font-weight: bold;
+}
+.row {
+  color: #333333;
+}
 
 /*BAGGRUNDSBILLEDE*/
 
 .background {
+  height: 100%;
   width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+
 }
 
 .background img {
@@ -28,26 +38,31 @@ body {
 }
 
 .box {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 3%;
-  opacity: 0.6;
   position: relative;
+  margin: auto;
+  margin-top: 50px;
+
+
 }
 
 .blueone {
-  background-color: blue;
+  background-color: #11497b;
   color: #fff;
   float: left;
+
 }
 
 .blueone h2 {
   font-size: 1.2em;
   padding-top: 8%;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
 .whiteone {
   float: left;
+  padding-bottom: 20%;
 }
 
 .whiteone h1 {
@@ -63,12 +78,10 @@ body {
   width: 100%;
 }
 
-.knapet {
-  width: 50%;
-}
-
-.knapto {
-  width: 50%;
+/*Dette er login knappen*/
+.btn {
+  background-color: #0068B4;
+  border: #0068B4;
 }
 
 .form-group {
@@ -82,7 +95,15 @@ body {
 }
 
 .next button{
-  float: right;
+  background-color: #4aa22c;
+  border: #4aa22c;
+
+}
+
+.next {
+  width: 10%;
+  margin-left: 65%;
+  margin-top: 62px;
 }
 
 /*BOOTSTRAP PADDING FIX*/
@@ -90,12 +111,16 @@ body {
     padding: 1em;
 }
 
+@media (min-width: 1024px) {
+  .next {
+    width: 10%;
+    margin-left: 77%;
+  }
+}
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
 
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
