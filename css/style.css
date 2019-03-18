@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+body {
+  background-color: #EBEBEB;
+}
+
+/*BAGGRUNDSBILLEDE*/
+
+.background {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.background img {
+  width: 100%;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 3%;
+  opacity: 0.6;
+  position: relative;
+}
+
+.blueone {
+  background-color: blue;
+  color: #fff;
+  float: left;
+}
+
+.blueone h2 {
+  font-size: 1.2em;
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+
+.whiteone {
+  float: left;
+}
+
+.whiteone h1 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.knapet {
+  width: 50%;
+}
+
+.knapto {
+  width: 50%;
+}
+
+.form-group {
+  /*height: 3em;*/
+  margin: -2%;
+  margin-left: 2%;
+}
+
+.form-group label {
+  font-size: 0.9em;
+}
+
+.next button{
+  float: right;
+}
+
+/*BOOTSTRAP PADDING FIX*/
+[class*="col-"] {
+    padding: 1em;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
