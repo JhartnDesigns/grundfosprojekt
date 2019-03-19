@@ -1,9 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@font-face {
+font-family: "GrundfosTheSansv2Regular";
+src: url("css/fonts/GrundfosTheSansV2OT-5R.otf");
+src:
+url("css/fonts/GrundfosTheSansV2OT-5R.otf") format("opentype")
+}
+@font-face {
+font-family: "GrundfosTheSansv2Bold";
+src: url("css/fonts/GrundfosTheSansV2OT-7B.otf");
+src:
+url("css/fonts/GrundfosTheSansV2OT-7B.otf") format("opentype"),
+}
 
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'GrundfosTheSansv2Regular'sans-serif;
   color: #222;
 }
 
@@ -14,9 +25,7 @@ h1 {
   color: #333333;
 }
 
-.punktforme {
-  font-weight: bold;
-}
+
 .row {
   color: #333333;
 }
@@ -103,6 +112,7 @@ h1 {
 .col-lg-12 .btn-primary:hover{
 background-color:#025d9f;
 }
+
 
 
 .btn-outline-primary{
