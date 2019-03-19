@@ -106,6 +106,23 @@ h1 {
   margin-top: 62px;
 }
 
+#login {
+  display: none;
+}
+
+#next {
+  display: none;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
 /*BOOTSTRAP PADDING FIX*/
 [class*="col-"] {
     padding: 1em;

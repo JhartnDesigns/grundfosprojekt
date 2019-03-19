@@ -10,7 +10,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="css/style.css" rel="stylesheet">
-	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/java.js"></script>
 </head>
 <body>
 
@@ -41,7 +41,7 @@
 				</p>
 
 				<div class="col-lg-12 row">
-						<a href="#"><button type="button" class="btn btn-primary btn-lg">LOGIN</button></a>
+						<a><button type="button" onclick="showLogin()" class="btn btn-primary btn-lg">LOGIN</button></a>
 				</div>
 			</div>
 
@@ -77,10 +77,14 @@
 
 
 						<div class="next">
-							<button type="submit" class="btn btn-primary btn-lg">Næste</button>
+							<button type="button" onclick="nextstep()" class="btn btn-primary btn-lg">Næste</button>
 						</div>
 					</form>
 				</div>
+				<ul class="carousel-indicators">
+					<li data-target="#home" data-slide-to="0" class="active"></li>
+					<li data-target="#next" data-slide-to="1"></li>
+				</ul>
 			</div>
 	</div>
 </div>
@@ -113,12 +117,17 @@
   						  <input type="text" class="form-control" id="company">
   					</div>
 
+						<button type="button" onclick="tilbage()" class="btn btn-outline-primary">Tilbage</button>
 
 						<div class="next">
 							<button type="submit" class="btn btn-primary btn-lg">Opret</button>
 						</div>
 					</form>
 				</div>
+				<ul class="carousel-indicators">
+					<li data-target="#home" data-slide-to="0"></li>
+					<li data-target="#next" data-slide-to="1" class="active"></li>
+				</ul>
 			</div>
 
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -153,7 +162,7 @@
 				</p>
 
 				<div class="col-lg-12 row">
-						<a href="#"><button type="button" class="btn btn-primary btn-lg">Opret Konto</button></a>
+						<a><button type="button" onclick="createAcount()" class="btn btn-primary btn-lg">Opret Konto</button></a>
 				</div>
 			</div>
 
