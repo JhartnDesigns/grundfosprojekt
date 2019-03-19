@@ -76,11 +76,52 @@ h1 {
   width: 100%;
 }
 
+
+.nexttwo img {
+  width: 100%;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  margin-top: -15px;
+}
+
+.tekstboks h4{
+  position: relative;
+  margin-top: -160px;
+  color: #fff;
+  text-align: center;
+  padding-left: 30px;
+  z-index:+1;
+
+}
+
+
 /*Dette er login knappen*/
-.btn {
+.col-lg-12 .btn{
   background-color: #0068B4;
   border: #0068B4;
 }
+.col-lg-12 .btn-primary:hover{
+background-color:#025d9f;
+}
+
+
+.btn-outline-primary{
+    background-color: #fff;
+    border-color: #0068B4;
+  }
+  .btn-outline-primary:hover{
+      background-color: #0068B4;
+      border-color: #0068B4;
+    }
+
+  .btn-outline-primary {
+      width: 20%;
+      height: 47px;
+      position: relative;
+      margin-left: 6%;
+      margin-top: 158px;
+
+    }
 
 .form-group {
   /*height: 3em;*/
@@ -97,10 +138,15 @@ h1 {
   border: #4aa22c;
 }
 
+.btn-primary:hover{
+background-color:#3d8525;
+}
+
 .next {
   width: 10%;
+  position: absolute;
   margin-left: 65%;
-  margin-top: 62px;
+  margin-top: 405px;
 }
 
 #login {
